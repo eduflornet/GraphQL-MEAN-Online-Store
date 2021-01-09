@@ -1,3 +1,4 @@
+import { AdminModule } from './@admin/pages/admin.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,6 +13,7 @@ import { HomeComponent } from './@pages/home/home.component';
   ],
   imports: [
     BrowserModule,
+    AdminModule,
     AppRoutingModule
   ],
   providers: [],
